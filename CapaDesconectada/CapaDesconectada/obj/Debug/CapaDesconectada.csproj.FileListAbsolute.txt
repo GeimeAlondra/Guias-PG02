@@ -1,0 +1,10 @@
+D:\Usuarios\Alondra\Documents\UNAB\CICLO IV - 2024 - UNAB\sPG2-20\Periodo 2\Semana 7\CapaDesconectada\CapaDesconectada\bin\Debug\CapaDesconectada.exe.config
+D:\Usuarios\Alondra\Documents\UNAB\CICLO IV - 2024 - UNAB\sPG2-20\Periodo 2\Semana 7\CapaDesconectada\CapaDesconectada\bin\Debug\CapaDesconectada.exe
+D:\Usuarios\Alondra\Documents\UNAB\CICLO IV - 2024 - UNAB\sPG2-20\Periodo 2\Semana 7\CapaDesconectada\CapaDesconectada\bin\Debug\CapaDesconectada.pdb
+D:\Usuarios\Alondra\Documents\UNAB\CICLO IV - 2024 - UNAB\sPG2-20\Periodo 2\Semana 7\CapaDesconectada\CapaDesconectada\obj\Debug\CapaDesconectada.csproj.AssemblyReference.cache
+D:\Usuarios\Alondra\Documents\UNAB\CICLO IV - 2024 - UNAB\sPG2-20\Periodo 2\Semana 7\CapaDesconectada\CapaDesconectada\obj\Debug\CapaDesconectada.Form1.resources
+D:\Usuarios\Alondra\Documents\UNAB\CICLO IV - 2024 - UNAB\sPG2-20\Periodo 2\Semana 7\CapaDesconectada\CapaDesconectada\obj\Debug\CapaDesconectada.Properties.Resources.resources
+D:\Usuarios\Alondra\Documents\UNAB\CICLO IV - 2024 - UNAB\sPG2-20\Periodo 2\Semana 7\CapaDesconectada\CapaDesconectada\obj\Debug\CapaDesconectada.csproj.GenerateResource.cache
+D:\Usuarios\Alondra\Documents\UNAB\CICLO IV - 2024 - UNAB\sPG2-20\Periodo 2\Semana 7\CapaDesconectada\CapaDesconectada\obj\Debug\CapaDesconectada.csproj.CoreCompileInputs.cache
+D:\Usuarios\Alondra\Documents\UNAB\CICLO IV - 2024 - UNAB\sPG2-20\Periodo 2\Semana 7\CapaDesconectada\CapaDesconectada\obj\Debug\CapaDesconectada.exe
+D:\Usuarios\Alondra\Documents\UNAB\CICLO IV - 2024 - UNAB\sPG2-20\Periodo 2\Semana 7\CapaDesconectada\CapaDesconectada\obj\Debug\CapaDesconectada.pdb
