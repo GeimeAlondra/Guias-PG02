@@ -37,6 +37,9 @@
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.btnObtenerTipado = new System.Windows.Forms.Button();
             this.gridTipado = new System.Windows.Forms.DataGridView();
+            this.btnBuscarTipado = new System.Windows.Forms.Button();
+            this.tboxBuscarTipado = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gridNoTipado)).BeginInit();
             this.groupBox2.SuspendLayout();
@@ -103,18 +106,21 @@
             // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.btnBuscarTipado);
+            this.groupBox2.Controls.Add(this.tboxBuscarTipado);
+            this.groupBox2.Controls.Add(this.label2);
             this.groupBox2.Controls.Add(this.btnObtenerTipado);
             this.groupBox2.Controls.Add(this.gridTipado);
             this.groupBox2.Location = new System.Drawing.Point(408, 28);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(362, 299);
+            this.groupBox2.Size = new System.Drawing.Size(362, 383);
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "DataSet Tipado";
             // 
             // btnObtenerTipado
             // 
-            this.btnObtenerTipado.Location = new System.Drawing.Point(113, 260);
+            this.btnObtenerTipado.Location = new System.Drawing.Point(96, 260);
             this.btnObtenerTipado.Name = "btnObtenerTipado";
             this.btnObtenerTipado.Size = new System.Drawing.Size(142, 23);
             this.btnObtenerTipado.TabIndex = 1;
@@ -130,6 +136,32 @@
             this.gridTipado.Size = new System.Drawing.Size(350, 211);
             this.gridTipado.TabIndex = 0;
             // 
+            // btnBuscarTipado
+            // 
+            this.btnBuscarTipado.Location = new System.Drawing.Point(96, 343);
+            this.btnBuscarTipado.Name = "btnBuscarTipado";
+            this.btnBuscarTipado.Size = new System.Drawing.Size(150, 23);
+            this.btnBuscarTipado.TabIndex = 7;
+            this.btnBuscarTipado.Text = "Buscar Cliente";
+            this.btnBuscarTipado.UseVisualStyleBackColor = true;
+            this.btnBuscarTipado.Click += new System.EventHandler(this.btnBuscarTipado_Click);
+            // 
+            // tboxBuscarTipado
+            // 
+            this.tboxBuscarTipado.Location = new System.Drawing.Point(96, 302);
+            this.tboxBuscarTipado.Name = "tboxBuscarTipado";
+            this.tboxBuscarTipado.Size = new System.Drawing.Size(220, 20);
+            this.tboxBuscarTipado.TabIndex = 6;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(47, 305);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(43, 13);
+            this.label2.TabIndex = 5;
+            this.label2.Text = "Buscar:";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -143,6 +175,7 @@
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gridNoTipado)).EndInit();
             this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gridTipado)).EndInit();
             this.ResumeLayout(false);
 
@@ -159,6 +192,9 @@
         private System.Windows.Forms.Button btnBuscarNoTipado;
         private System.Windows.Forms.TextBox tboxBuscarNoTipado;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button btnBuscarTipado;
+        private System.Windows.Forms.TextBox tboxBuscarTipado;
+        private System.Windows.Forms.Label label2;
     }
 }
 
