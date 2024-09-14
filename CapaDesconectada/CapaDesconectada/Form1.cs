@@ -39,6 +39,31 @@ namespace CapaDesconectada
             }
         }
 
+        private void btnInsertarCliente_Click(object sender, EventArgs e)
+        {
+            var cliente = CrearCliente();
+            int insertados = customerRepository.InsertarCliente(cliente);
+            MessageBox.Show($"{insertados} registrados");
+        }
+
+        private Customers CrearCliente()
+        {
+            var cliente = new Customers
+            {
+                CustomerID = tboxCustomerID.Text,
+                CompanyName = tboxCompanyName.Text,
+                ContactName = tboxContactName.Text,
+                ContactTitle = tboxContactTitle.Text,
+                Address = tboxAddress.Text,
+            };
+            MessageBox.Show(cliente.CustomerID);
+            MessageBox.Show(cliente.CompanyName);
+            MessageBox.Show(cliente.ContactName);
+            MessageBox.Show(cliente.ContactTitle);
+            MessageBox.Show(cliente.Address);
+            return cliente;
+        }
+
         #endregion
 
         #region Tipado
@@ -57,8 +82,9 @@ namespace CapaDesconectada
 
             if (customer != null)
             {
-                var cliente = customerRepository.ExtraerInformacionCliente(customer);
-                Console.WriteLine(customer);
+                //var cliente = customerRepository.ExtraerInformacionCliente(customer);
+                //Console.WriteLine(customer);
+                gridTipado.DataSource = customer;
             }
         }
 
