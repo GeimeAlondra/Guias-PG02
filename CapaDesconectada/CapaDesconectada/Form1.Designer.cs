@@ -51,6 +51,7 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
+            this.btnInsertarT = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gridNoTipado)).BeginInit();
             this.groupBox2.SuspendLayout();
@@ -117,6 +118,7 @@
             // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.btnInsertarT);
             this.groupBox2.Controls.Add(this.btnBuscarTipado);
             this.groupBox2.Controls.Add(this.tboxBuscarTipado);
             this.groupBox2.Controls.Add(this.label2);
@@ -131,9 +133,9 @@
             // 
             // btnBuscarTipado
             // 
-            this.btnBuscarTipado.Location = new System.Drawing.Point(96, 343);
+            this.btnBuscarTipado.Location = new System.Drawing.Point(50, 343);
             this.btnBuscarTipado.Name = "btnBuscarTipado";
-            this.btnBuscarTipado.Size = new System.Drawing.Size(150, 23);
+            this.btnBuscarTipado.Size = new System.Drawing.Size(106, 23);
             this.btnBuscarTipado.TabIndex = 7;
             this.btnBuscarTipado.Text = "Buscar Cliente";
             this.btnBuscarTipado.UseVisualStyleBackColor = true;
@@ -212,7 +214,7 @@
             // 
             this.btnInsertarCliente.Location = new System.Drawing.Point(823, 265);
             this.btnInsertarCliente.Name = "btnInsertarCliente";
-            this.btnInsertarCliente.Size = new System.Drawing.Size(150, 23);
+            this.btnInsertarCliente.Size = new System.Drawing.Size(163, 23);
             this.btnInsertarCliente.TabIndex = 8;
             this.btnInsertarCliente.Text = "Insertar Cliente";
             this.btnInsertarCliente.UseVisualStyleBackColor = true;
@@ -262,6 +264,16 @@
             this.label7.Size = new System.Drawing.Size(48, 13);
             this.label7.TabIndex = 15;
             this.label7.Text = "Address:";
+            // 
+            // btnInsertarT
+            // 
+            this.btnInsertarT.Location = new System.Drawing.Point(216, 343);
+            this.btnInsertarT.Name = "btnInsertarT";
+            this.btnInsertarT.Size = new System.Drawing.Size(100, 23);
+            this.btnInsertarT.TabIndex = 8;
+            this.btnInsertarT.Text = "Enviar";
+            this.btnInsertarT.UseVisualStyleBackColor = true;
+            this.btnInsertarT.Click += new System.EventHandler(this.btnInsertarT_Click);
             // 
             // Form1
             // 
@@ -319,6 +331,7 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Button btnInsertarT;
     }
 }
 

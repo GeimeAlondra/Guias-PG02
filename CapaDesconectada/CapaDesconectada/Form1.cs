@@ -56,11 +56,8 @@ namespace CapaDesconectada
                 ContactTitle = tboxContactTitle.Text,
                 Address = tboxAddress.Text,
             };
-            MessageBox.Show(cliente.CustomerID);
-            MessageBox.Show(cliente.CompanyName);
-            MessageBox.Show(cliente.ContactName);
-            MessageBox.Show(cliente.ContactTitle);
-            MessageBox.Show(cliente.Address);
+          
+
             return cliente;
         }
 
@@ -86,6 +83,17 @@ namespace CapaDesconectada
                 //Console.WriteLine(customer);
                 gridTipado.DataSource = customer;
             }
+        }
+
+        private void btnInsertarT_Click(object sender, EventArgs e)
+        {
+            var cliente = CrearCliente();
+            int insertados = adaptador.Insert(cliente.CustomerID, cliente.CompanyName, 
+                cliente.ContactName, cliente.ContactTitle, cliente.Address, cliente.City, 
+                cliente.Region, cliente.PostalCode, cliente.Country, cliente.Phone, cliente.Fax
+                );
+
+            MessageBox.Show($"{insertados} registros insertados");
         }
 
         #endregion
