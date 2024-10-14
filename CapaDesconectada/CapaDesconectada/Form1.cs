@@ -187,13 +187,18 @@ namespace CapaDesconectada
             }
         }
 
+        private void btnEliminarT_Click(object sender, EventArgs e)
+        {
+            int filasEliminadas = adaptador.EliminarCliente(tboxCustomerID.Text);
+            MessageBox.Show($"{filasEliminadas} filas eliminadas");
+
+        }
+
         #endregion
 
         public Form1()
         {
             InitializeComponent();
         }
-
-       
     }
 }
