@@ -80,8 +80,14 @@ namespace CapaDesconectada
         private void btnActualizarNT_Click(object sender, EventArgs e)
         {
             var cliente = CrearCliente();
-            var actulaizadas = customerRepository.ActualizarCliente(cliente);
-            MessageBox.Show($"{actulaizadas} filas actulizadas");
+            var actualizadas = customerRepository.ActualizarCliente(cliente);
+            MessageBox.Show($"{actualizadas} filas actulizadas");
+        }
+
+        private void btnEliminarClienteNt_Click(object sender, EventArgs e)
+        {
+            var eliminados = customerRepository.EliminarCliente(tboxCustomerID.Text);
+            MessageBox.Show($"{eliminados} filas eliminadas");
         }
 
         #endregion
@@ -103,6 +109,7 @@ namespace CapaDesconectada
             {
                 var objeto1 = customerRepository.ExtraerInformacionCliente(customer);
                 RellenarForm(objeto1);
+                gridTipado.DataSource = customer;
                 Console.WriteLine(customer);
             }
         }
@@ -186,5 +193,7 @@ namespace CapaDesconectada
         {
             InitializeComponent();
         }
+
+       
     }
 }
